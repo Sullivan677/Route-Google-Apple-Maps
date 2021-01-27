@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  MapDirection
-//
-//  Created by Sullivan De carli on 26/01/2021.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

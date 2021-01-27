@@ -15,6 +15,8 @@
 		752951BE25C06D6600692CD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752951BC25C06D6600692CD4 /* LaunchScreen.storyboard */; };
 		752951C925C06D6600692CD4 /* MapDirectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752951C825C06D6600692CD4 /* MapDirectionTests.swift */; };
 		752951D425C06D6600692CD4 /* MapDirectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752951D325C06D6600692CD4 /* MapDirectionUITests.swift */; };
+		752951E525C06DCB00692CD4 /* OpenMapDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752951E425C06DCB00692CD4 /* OpenMapDirections.swift */; };
+		752951EA25C082E000692CD4 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752951E925C082E000692CD4 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		752951CF25C06D6600692CD4 /* MapDirectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapDirectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		752951D325C06D6600692CD4 /* MapDirectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDirectionUITests.swift; sourceTree = "<group>"; };
 		752951D525C06D6600692CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		752951E425C06DCB00692CD4 /* OpenMapDirections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenMapDirections.swift; sourceTree = "<group>"; };
+		752951E925C082E000692CD4 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +106,12 @@
 				752951B125C06D6400692CD4 /* AppDelegate.swift */,
 				752951B325C06D6400692CD4 /* SceneDelegate.swift */,
 				752951B525C06D6400692CD4 /* ViewController.swift */,
+				752951E425C06DCB00692CD4 /* OpenMapDirections.swift */,
 				752951B725C06D6400692CD4 /* Main.storyboard */,
 				752951BA25C06D6600692CD4 /* Assets.xcassets */,
 				752951BC25C06D6600692CD4 /* LaunchScreen.storyboard */,
 				752951BF25C06D6600692CD4 /* Info.plist */,
+				752951E925C082E000692CD4 /* Location.swift */,
 			);
 			path = MapDirection;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			files = (
 				752951B625C06D6400692CD4 /* ViewController.swift in Sources */,
 				752951B225C06D6400692CD4 /* AppDelegate.swift in Sources */,
+				752951EA25C082E000692CD4 /* Location.swift in Sources */,
+				752951E525C06DCB00692CD4 /* OpenMapDirections.swift in Sources */,
 				752951B425C06D6400692CD4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
